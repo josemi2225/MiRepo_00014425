@@ -1,0 +1,22 @@
+inicio
+
+variables: A,B,C
+
+leer A
+leer B
+leer C
+
+Si (A > B) y (A > C) Entonces 
+Escribir "El mayor es: " , A
+
+sino
+
+Si (B > C) Entonces 
+
+Escribir "El mayor es: ", B
+
+sino
+
+Escribir "El mayor es: ", C
+
+fin.
