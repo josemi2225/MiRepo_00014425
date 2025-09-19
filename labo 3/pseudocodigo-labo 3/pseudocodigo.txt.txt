@@ -11,7 +11,7 @@ Escribir "El mayor es: " , A
 
 sino
 
-Si (B > C) Entonces 
+Si (B > C) y (B > A) Entonces 
 
 Escribir "El mayor es: ", B
 
