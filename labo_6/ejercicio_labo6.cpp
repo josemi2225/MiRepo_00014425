@@ -21,13 +21,13 @@ void mostrarEstudiantes(Estudiante* estudiantes, int cantidad);
 void buscarEstudiante(Estudiante* estudiantes, int cantidad);
 void modificarEstudiante(Estudiante* estudiantes, int cantidad);
 
-//progrma principal
+//programa principal
 int main() {
     int cantidad;
     cout << "Ingrese la cantidad de estudiantes: ";
     cin >> cantidad;
 
-    // Arreglo 
+    
     Estudiante* estudiantes = new Estudiante[cantidad];
 
     int opcion;
